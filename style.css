@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    
+    height: 6rem;
+    
+    
+
+}
+.navbar-brand img{
+    width: 15rem;
+    height: 4rem;
+}
+.nav-link{
+    color: white;
+    font-size:  .9rem; 
+    margin-right: 1rem;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #7ED957;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+}
+.main{
+    background-color: black;
+}
+.trans{
+    color: #ffffff;
+    font-size: 2.3rem;
+}
+.profes{
+   color: #7ED957;
+}
+.contact-form{
+   
+    height: 30rem;
+    border-radius: 10px;
+    
+    background-color: rgb(32, 32, 32);
+    box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.5);
+    
+}
+.type1-1{
+    width: 25rem;
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+input[type=text]:focus {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+}
+.getyour{
+    color: white;
+}
+.getyour span{
+    color: #7ED957;
+}
+.button1{
+    width: 25rem;
+    border-radius: 30px;
+    background-color: #7ED957;
+    border: none;
+    color: white;
+}
+input[type=button]:focus {
+   
+    border: none;
+    outline: none;
+}
+.wemind h2{
+    color: #7ED957;
+    font-weight: 700;
+}
+.areyou{
+    font-size: 1.2rem;
+}
+.image img{
+    width:15rem ;
+    height: 20rem;
+}
+.card-section h5{
+    color: #7ED957;
+
+}
+.card-body{
+    padding: 1;
+    
+
+}
+.card1-body{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+.card2-body{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+.btn2{
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background-color: #7ED957;
+    border-radius: 40px;
+    border: none;
+}
+
+
+.ourexpert {
+    padding-left: 3rem;
+}
+.ourexpert h1{
+    color: #7ED957;
+    font-weight:700 ;
+    margin-top: -1.5rem;
+}
+.third-section-card{
+    border: 1px solid rgb(216, 216, 216);
+    width: 20rem;
+}
+.image-third img{
+    width: 18rem;
+}
+.youthink{
+    padding-left: 3rem;
+}
+.fourth-section-div {
+   border-radius: 10px;
+   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+   border: 1px solid rgb(216, 216, 216);
+
+}
+.carousel-item p{
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+   
+.slidercol{
+    background-color: #868686;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+    text-align: center;
+    
+    
+}
+.fifth-section-getyour h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+.fifth-section-getyour span{
+    color: #7ED957;
+}
+.fifth-section-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.fifth-section textarea{
+    width: 100%;
+    height: 6rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 0.5rem;
+}
+.type-session{
+    height:2.5rem ;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 0.5rem;
+   
+}
+.fifth-section button{
+    height:2.5rem ;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #7ED957;
+    border: none;
+    margin-top:0.4rem;
+
+}
+.heyy2{
+    margin-top: 50px;
+}
+@media (max-width: 768px) {
+    .heyy{
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.footer-logo h5 {
+   padding-left: 2rem;
+}
+.footer-logo img{
+    width: 18rem;
+}
+.circle{
+   padding-top: 2rem;
+    padding-left: 2rem;
+}
+td{
+    width: 12rem;
+    cursor: pointer;
+}
+.contactinfo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+   
+
+}
